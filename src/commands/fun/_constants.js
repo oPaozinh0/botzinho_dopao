@@ -1,0 +1,41 @@
+const levxycas = [
+  'levestica',
+  'Levxícara',
+  'levchica',
+  'levxuca',
+  'lévska',
+  'lev',
+  'levinha',
+  'delévs',
+  'Lév Francisca',
+  'Lév Chiquinha',
+  'levesticaixon',
+  'levscan',
+  'relampxyca',
+  'bicixyca',
+  'veiaxyca',
+  'roboxyca',
+  'levgyra',
+  'levxixica',
+  'leviajyca',
+];
+
+const narios = [
+  'ordi@NarioDev',
+  'bilio@NarioDev',
+  'milio@NarioDev',
+  'dicio@NarioDev',
+  'embrio@Nariodev',
+  'confessio@NarioDev',
+  'bi@NarioDev',
+  'funcio@NarioDev',
+  'maqui@NarioDev',
+  'merce@Nariodev',
+  'ple@NarioDev',
+  'questio@NarioDev',
+  'veteri@NarioDev',
+  'visio@NarioDev',
+  'culi@NarioDev',
+];
+
+module.exports = { levxycas, narios };

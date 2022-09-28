@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "pandadomalbot",
+  "version": "1.0.0",
+  "description": "Um bot muito carinhoso criado para divertir o chat do canal da levxyca.",
+  "author": "levxyca",
+  "license": "MIT",
+  "homepage": "https://levxyca.codes/pandadomalsite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levxyca/pandadomalbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/levxyca/pandadomalbot/issues"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src",
+    "lint": "eslint .",
+    "lint:markdown": "markdownlint **/*.md --ignore node_modules",
+    "export": "node src/export.js"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "fastq": "^1.13.0",
+    "luxon": "^2.3.1",
+    "tmi.js": "^1.8.5",
+    "twitter-v2": "github:edsu/twitter-v2"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "markdownlint-cli": "^0.31.1",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
