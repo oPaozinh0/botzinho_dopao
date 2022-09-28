@@ -14,7 +14,7 @@
     "url": "https://github.com/levxyca/pandadomalbot/issues"
   },
   "scripts": {
-    "start": "node src/index.js",
+    "start": "pm2 start src/index.js",
     "dev": "nodemon --watch src",
     "lint": "eslint .",
     "lint:markdown": "markdownlint **/*.md --ignore node_modules",
