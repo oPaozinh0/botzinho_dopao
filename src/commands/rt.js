@@ -20,7 +20,7 @@ module.exports = {
       const metrics = format.tweetMetrics(tweet);
       await client.say(
         channel,
-        `Dá um RT aí por favorzinho levxycAnimada ${url} (${metrics})`,
+        `Dá um RT aí por favorzinho paonatLove ${url} (${metrics})`,
       );
     } else {
       await client.say(

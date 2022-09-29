@@ -1,7 +1,7 @@
-const { levxyca } = require('./_urls');
+const { paozinho } = require('./_urls');
 
 module.exports = {
   keyword: 'github',
   aliases: ['git'],
-  execute: `Confira meus projetos e contribuições 🦄 ${levxyca.github}`,
+  execute: `Confira meus projetos e contribuições 🍞 ${paozinho.github}`,
 };

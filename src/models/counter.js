@@ -4,7 +4,7 @@ const {
   dateFromText,
 } = require('../utilities/date-time');
 
-const INITIAL_DATE = '09/10/2020';
+const INITIAL_DATE = '29/09/2022';
 
 class Counter {
   constructor() {

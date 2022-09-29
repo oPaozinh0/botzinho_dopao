@@ -1,6 +1,6 @@
-const { levxyca } = require('./_urls');
+const { paozinho } = require('./_urls');
 
 module.exports = {
   keyword: 'youtube',
-  execute: `Conheça o meu canal no YouTube sobre tecnologia, bate-papo, rotina e afins 🎥 ${levxyca.youtube}`,
+  execute: `Conheça o meu canal no YouTube : 🎥 ${paozinho.youtube}`,
 };

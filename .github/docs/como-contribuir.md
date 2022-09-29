@@ -1,4 +1,4 @@
-# 🐼 Contribuindo com o pandadomalbot
+# 🐼 Contribuindo com o botzinho_doPao
 
 1. [Como contribuir](#como-contribuir)
 2. [Antes de executar](#antes-de-executar)
@@ -18,13 +18,13 @@ instalados.
 Uma vez que ambos estiverem prontos, basta clonar este repositório:
 
 ```sh
-git clone git@github.com:levxyca/pandadomalbot.git
+git clone git@github.com:zbreadz/botzinho_dopao.git
 ```
 
 E instalar as dependências:
 
 ```sh
-cd ./pandadomalbot
+cd ./botzinho_dopao
 npm i
 ```
 
@@ -85,14 +85,14 @@ Depois disso, basta executar o seguinte comando:
 npm start
 
 
-> pandadomalbot@1.0.0 start
+> botzinho_doPao@1.0.0 start
 > node src/index.js
 
 info: Connecting to irc-ws.chat.twitch.tv on port 443..
 info: Sending authentication to server..
 info: Connected to server.
-info: Executing command: JOIN :levxyca
-info: Joined :levxyca
+info: Executing command: JOIN :pao_natwitch
+info: Joined :pao_natwitch
 
 ```
 
@@ -112,6 +112,6 @@ info: Joined :levxyca
 [3]: https://pt.wikipedia.org/wiki/Vari%C3%A1vel_de_ambiente
 [4]: ../../.env.example
 [5]: https://twitchapps.com/tmi/
-[6]: https://github.com/levxyca/pandadomalbot/issues
+[6]: https://github.com/zBreadz/botzinho_dopao/issues
 [7]: https://dev.to/levxyca/pt-br-github-para-leigos-4i7j
 [8]: https://dev.twitch.tv/console/apps

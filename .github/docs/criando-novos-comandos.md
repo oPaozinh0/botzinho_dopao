@@ -23,14 +23,14 @@ Onde:
 - `execute`: é a função que será executada quando o comando for recebido. Seu primeiro argumento
   é tudo que foi enviado na mensagem do chat, e, o restante dos argumentos são os mesmos enviados pelo
   evento de [chat][1] no tmi.js. Supondo que um comando "!abacaxi palavra1 palavra2" tenha sido _triggado_
-  no canal "levxyca", você teria algo assim na execução da função `execute`:
+  no canal "pao_natwitch", você teria algo assim na execução da função `execute`:
 
 ```js
 module.exports = {
   keyword: 'abacaxi',
   execute: ({ args, channel, context, message }){
     console.log(args); // palavra1 palavra2
-    console.log(channel); // levxyca
+    console.log(channel); // pao_natwitch
     console.log(context); // {...}
     console.log(message); // !abacaxi palavra1 palavra2
   }
@@ -75,14 +75,14 @@ Um novo arquivo `commands.json` será criado no diretório raiz do projeto.
 
   ```none
   // RUIM 🥲
-  pandadomalbot
+  botzinho_doPao
     - src
       - commands
         - shop.js // TODA lógica de shop aqui dentro
 
 
   // MELHOR 😎
-  pandadomalbot
+  botzinho_doPao
     - src
       - commands
         - shop
@@ -96,7 +96,7 @@ Um novo arquivo `commands.json` será criado no diretório raiz do projeto.
     de comandos, por exemplo:
 
   ```none
-  pandadomalbot
+  botzinho_doPao
     - src
       - commands
         - calculadora

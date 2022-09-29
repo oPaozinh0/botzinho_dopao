@@ -1,4 +1,4 @@
 module.exports = {
   keyword: 'amor',
-  execute: 'levxycAmor '.repeat(40),
+  execute: 'paonatLove '.repeat(34),
 };

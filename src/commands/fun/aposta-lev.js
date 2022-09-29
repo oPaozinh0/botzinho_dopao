@@ -1,4 +1,4 @@
-const { levxycas } = require('./_constants');
+const { paozinho } = require('./_constants');
 const { client } = require('../../core/twitch_client');
 const { people } = require('../../queues/people');
 const { sample } = require('../../utilities/collections');
@@ -20,7 +20,7 @@ module.exports = {
     }
 
     const choice = argument.split(' ')[0];
-    const selected = sample(levxycas);
+    const selected = sample(paozinho);
 
     if (!selected) return;
 
@@ -33,14 +33,14 @@ module.exports = {
       } else if (clean(choice) === clean(selected)) {
         client.say(
           channel,
-          `Ei ${context.username}, você acertou a variação de levxyca especial: ${selected}.
+          `Ei ${context.username}, você acertou a variação do pãozinho especial: ${selected}.
             Por isso vou te dar ${POINTS} pontos!`,
         );
         person.points += Number(POINTS);
       } else {
         client.say(
           channel,
-          `Ei ${context.username}, você não acertou a variação de levxyca especial, a escolha da vez era ${selected}.`,
+          `Ei ${context.username}, você não acertou a variação do pãozinho especial, a escolha da vez era ${selected}.`,
         );
       }
 

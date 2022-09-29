@@ -1,6 +1,6 @@
-const { levxyca } = require('./_urls');
+const { paozinho } = require('./_urls');
 
 module.exports = {
   keyword: 'social',
-  execute: `Me encontre nas outras redes sociais 🌎 ${levxyca.site}`,
+  execute: `Me encontre nas outras redes sociais 🌎 ${paozinho.site}`,
 };

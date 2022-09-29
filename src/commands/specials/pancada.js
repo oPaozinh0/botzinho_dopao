@@ -3,7 +3,7 @@ const { client } = require('../../core/twitch_client');
 module.exports = {
   keyword: 'pancada',
   async execute({ context, channel }) {
-    if (context.username.toLowerCase() === 'vitthin') {
+    if (context.username.toLowerCase() !== '') {
       const perfect = Math.floor(Math.random() * 100) + 1;
 
       let reply;

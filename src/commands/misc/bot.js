@@ -1,5 +1,5 @@
 module.exports = {
   keyword: 'bot',
-  execute: `Repositório do pandadomalbot 🐼
-  https://github.com/levxyca/pandadomalbot`,
+  execute: `Repositório do botzinho_doPão 🐼
+  https://github.com/zBreadz/botzinho_dopao`,
 };

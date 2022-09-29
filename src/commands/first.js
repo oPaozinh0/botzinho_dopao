@@ -34,7 +34,7 @@ module.exports = {
       });
       await client.say(
         channel,
-        `@${context.username}, você foi a pessoa first da livexyca de hoje levxycAnimada Por isso, irei lhe presentear com ${points} pontos.`,
+        `@${context.username}, você foi a pessoa first do pãozinho de hoje paonatLove Por isso, irei lhe presentear com ${points} pontos.`,
       );
     }
   },

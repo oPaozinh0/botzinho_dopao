@@ -1,12 +1,8 @@
-const levxyca = {
-  site: 'https://links.levxyca.com',
-  telegram: 'https://t.me/newslevxyca',
-  github: 'https://github.com/levxyca',
-  youtube: 'https://youtube.com/levxyca',
+const paozinho = {
+  site: 'IN CONSTRUCTION',
+  telegram: 'IN CONSTRUCTION',
+  github: 'https://github.com/zBreadz',
+  youtube: 'https://www.youtube.com/c/zBread',
 };
 
-const links = {
-  podcast: 'https://anchor.fm/mocasdaweb',
-};
-
-module.exports = { levxyca, links };
+module.exports = { paozinho };

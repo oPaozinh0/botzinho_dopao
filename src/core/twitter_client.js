@@ -1,6 +1,7 @@
 const Twitter = require('twitter-v2');
 
 const client = new Twitter({
+  // bearer_token: process.env.TW_BEARER_TOKEN_KEY,
   consumer_key: process.env.TW_CONSUMER_KEY,
   consumer_secret: process.env.TW_CONSUMER_SECRET,
   access_token_key: process.env.TW_ACCESS_TOKEN_KEY,
@@ -9,6 +10,7 @@ const client = new Twitter({
 
 function isTwitterEnabled() {
   return (
+    // process.env.TW_BEARER_TOKEN_KEY &&
     process.env.TW_CONSUMER_KEY &&
     process.env.TW_CONSUMER_SECRET &&
     process.env.TW_ACCESS_TOKEN_KEY &&

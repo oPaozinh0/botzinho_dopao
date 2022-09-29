@@ -1,20 +1,20 @@
 {
   "private": true,
-  "name": "pandadomalbot",
+  "name": "botzinho_doPao",
   "version": "1.0.0",
-  "description": "Um bot muito carinhoso criado para divertir o chat do canal da levxyca.",
-  "author": "levxyca",
+  "description": "Um bot muito carinhoso criado para divertir o chat do canal da pao_natwitch.",
+  "author": "pao_natwitch",
   "license": "MIT",
-  "homepage": "https://levxyca.codes/pandadomalsite",
+  "homepage": "IN CONSTRUCTION",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/levxyca/pandadomalbot.git"
+    "url": "git+https://github.com/zBreadz/botzinho_dopao.git"
   },
   "bugs": {
-    "url": "https://github.com/levxyca/pandadomalbot/issues"
+    "url": "https://github.com/zBreadz/botzinho_dopao/issues"
   },
   "scripts": {
-    "start": "pm2 start src/index.js",
+    "start": "pm2 start src/index.js --restart-delay 5000",
     "dev": "nodemon --watch src",
     "lint": "eslint .",
     "lint:markdown": "markdownlint **/*.md --ignore node_modules",
