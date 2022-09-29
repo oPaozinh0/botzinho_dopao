@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/assets/panda.png">
+  <img src=".github/assets/paozinho.png">
   <h1 align="center">Botzinho do Pão</h1>
 </p>
 <p align="center">
